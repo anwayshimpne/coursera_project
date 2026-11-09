@@ -3,28 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173d31">
-  <meta name="description" content="Meet the people and principles behind Prakriti Ayurveda, a thoughtful Ayurvedic medicines store.">
-  <title>Prakriti Ayurveda | Personal Profile</title>
+  <meta name="theme-color" content="#071a33">
+  <meta name="description" content="Jane Doe, computer engineering student at VIT Pune focused on AI/ML and web development.">
+  <title>Jane Doe | Software Developer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header class="site-header" id="home">
-    <a class="brand" href="#home" aria-label="Prakriti Ayurveda home">
-      <span class="brand-mark" aria-hidden="true">✿</span>
-      <span>Prakriti <strong>Ayurveda</strong></span>
-    </a>
+    <a class="brand" href="#home" aria-label="Jane Doe home"><span class="brand-mark" aria-hidden="true">JD</span><span>Jane <strong>Doe</strong></span></a>
     <nav class="main-nav" aria-label="Main navigation">
-      <a href="#about">About Me</a>
-      <a href="#projects">Project Details</a>
-      <a href="#skills">Skills</a>
-      <a href="#recommendations">Recommendations</a>
+      <a class="topmenu" href="#about">About Me</a>
+      <a class="topmenu" href="#skills">Skills</a>
+      <a class="topmenu" href="#projects">Projects / Project Details</a>
+      <a class="topmenu" href="#recommendations">Recommendations</a>
     </nav>
-    <a class="home-icon" href="#home" aria-label="Home" title="Home">
+    <a class="iconbutton" href="#home" aria-label="Home" title="Back to top">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"/></svg>
     </a>
   </header>
@@ -32,71 +29,75 @@
   <main>
     <section class="hero" aria-labelledby="page-title">
       <div class="hero-copy">
-        <p class="eyebrow">ROOTED IN TRADITION · MADE FOR EVERYDAY WELLNESS</p>
-        <h1 id="page-title">Hello, I’m <span>Anwayshimpne.</span></h1>
-        <p class="hero-lede">I’m building a more thoughtful way to discover the wisdom of Ayurveda—one plant, one practice, and one conversation at a time.</p>
-        <a class="button button-light" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
+        <p class="eyebrow">COMPUTER ENGINEERING · AI/ML · WEB DEVELOPMENT</p>
+        <h1 id="page-title">Hi, I’m <span class="profile_name">Jane Doe</span></h1>
+        <p class="hero-lede">I build thoughtful software that brings artificial intelligence and accessible web experiences together.</p>
+        <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero-art" aria-label="Illustration of botanical leaves" role="img">
-        <span class="sun"></span><span class="hero-leaf leaf-one">❧</span><span class="hero-leaf leaf-two">❧</span>
-        <span class="hero-caption">A gentler rhythm<br>for well-being</span>
-      </div>
+      <div class="hero-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="hero-symbol">&lt;/&gt;</span><span class="hero-dot dot-one"></span><span class="hero-dot dot-two"></span></div>
     </section>
 
-    <section class="section about-section" id="about">
-      <div class="section-kicker">01 / THE PERSON BEHIND THE PURPOSE</div>
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <p class="section-kicker">01 / ABOUT ME</p>
       <div class="about-grid">
-        <div><h2>About Me</h2><p class="section-intro">A little about my path into plant-powered wellness.</p></div>
-        <div class="about-copy">
-          <p>I’m the founder and curator of <strong>Prakriti Ayurveda</strong>, a welcoming Ayurvedic medicines store inspired by the belief that well-being begins with listening—to our bodies, our surroundings, and time-tested traditions.</p>
-          <p>My goal is to make the world of Ayurveda easier to explore. I bring care to the way we select herbs, explain products, and help customers find reliable information. I value transparency, responsible sourcing, and the reminder that traditional wellness is personal—not one-size-fits-all.</p>
-          <p class="note">Our store shares educational information and wellness products; it does not replace advice from a qualified healthcare professional.</p>
+        <div>
+          <h2 id="about-title">Curiosity, code &amp; real-world impact.</h2>
+          <p class="section-intro">A computer engineering student exploring how technology can solve meaningful problems.</p>
+        </div>
+        <div class="about-content">
+          <img class="profile-image" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=500&amp;q=85" alt="Portrait representing Jane Doe" width="180" height="180">
+          <div class="about-copy">
+            <p>I’m <strong>Jane Doe</strong>, a computer engineering student at <strong>VIT Pune</strong>. I enjoy turning ideas into useful, dependable software and learning from every stage of building a product.</p>
+            <p>My interests include <strong>AI/ML</strong> and <strong>web development</strong>. Through hands-on project experience, I’ve explored medical image analysis, personalized recommendations, and practical application security—combining research, model development, and user-focused interfaces.</p>
+            <p>I’m always looking to grow as an engineer, collaborate with curious people, and create technology that is both capable and approachable.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section projects-section" id="projects">
-      <div class="section-kicker">02 / WHAT I’M GROWING</div>
-      <h2>Project Details</h2>
-      <p class="section-intro">Small, considered steps toward a more informed wellness experience.</p>
-      <div class="project-grid">
-        <article class="project-card"><span class="project-number">01</span><div class="project-icon" aria-hidden="true">✳</div><h3>Curated herbal essentials</h3><p>A carefully organized collection of Ayurvedic medicines and everyday wellness products, with clear descriptions and sourcing details.</p><a href="#skills">Explore my approach <span aria-hidden="true">↗</span></a></article>
-        <article class="project-card"><span class="project-number">02</span><div class="project-icon" aria-hidden="true">⌕</div><h3>Guidance that starts with listening</h3><p>A friendly, respectful shopping experience that helps customers ask better questions and know when to seek professional advice.</p><a href="#recommendations">Read recommendations <span aria-hidden="true">↗</span></a></article>
-        <article class="project-card"><span class="project-number">03</span><div class="project-icon" aria-hidden="true">♧</div><h3>Everyday Ayurveda, made clear</h3><p>Accessible educational content that introduces traditional concepts without overpromising or losing sight of individual needs.</p><a href="#about">Our values <span aria-hidden="true">↗</span></a></article>
-      </div>
-    </section>
-
-    <section class="section skills-section" id="skills">
-      <div class="section-kicker">03 / THE PRACTICE</div>
-      <h2>Skills</h2>
-      <p class="section-intro">The care and craft I bring to this work.</p>
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <p class="section-kicker">02 / TECHNOLOGIES I USE</p>
+      <h2 id="skills-title">Skills</h2>
+      <p class="section-intro">Tools and technologies I’ve worked with across my projects.</p>
       <div class="skills-grid">
-        <article class="skill-card"><span class="skill-logo" aria-hidden="true">🌿</span><h3>Herbal knowledge</h3><p>Respectful exploration of traditional herbs and their context.</p></article>
-        <article class="skill-card"><span class="skill-logo" aria-hidden="true">🧪</span><h3>Product curation</h3><p>Thoughtful selection with attention to quality and transparency.</p></article>
-        <article class="skill-card"><span class="skill-logo" aria-hidden="true">📚</span><h3>Wellness education</h3><p>Making product information approachable and easy to understand.</p></article>
-        <article class="skill-card"><span class="skill-logo" aria-hidden="true">🤝</span><h3>Customer care</h3><p>Patient, considerate service shaped around each conversation.</p></article>
-        <article class="skill-card"><span class="skill-logo" aria-hidden="true">🪷</span><h3>Ayurvedic principles</h3><p>Appreciation for holistic traditions and individual well-being.</p></article>
+        <article class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" loading="lazy"><h3>Python</h3><p>Programming &amp; machine learning</p></article>
+        <article class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" loading="lazy"><h3>React.js</h3><p>Interactive web interfaces</p></article>
+        <article class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="" loading="lazy"><h3>TensorFlow</h3><p>Deep learning workflows</p></article>
+        <article class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" loading="lazy"><h3>MongoDB</h3><p>Document-oriented data</p></article>
+        <article class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" loading="lazy"><h3>Node.js</h3><p>Server-side JavaScript</p></article>
       </div>
     </section>
 
-    <section class="section recommendations-section" id="recommendations">
-      <div class="section-kicker">04 / KIND WORDS & COMMUNITY</div>
-      <div class="recommendation-heading"><div><h2>Recommendations</h2><p class="section-intro">A few words from people who have shared this journey.</p></div><span class="quote-mark" aria-hidden="true">“</span></div>
-      <div class="recommendation-list" id="recommendation-list" aria-live="polite">
-        <blockquote class="recommendation-card"><p>“A lovely place to learn about Ayurvedic products. The explanations are clear and the team takes time to listen.”</p><footer><span class="avatar">M</span><span><strong>Meera K.</strong><small>Community member</small></span></footer></blockquote>
-        <blockquote class="recommendation-card"><p>“I appreciate the thoughtful selection and the honest, welcoming approach. It makes exploring wellness feel less overwhelming.”</p><footer><span class="avatar avatar-gold">R</span><span><strong>Rohan S.</strong><small>Returning customer</small></span></footer></blockquote>
-        <blockquote class="recommendation-card"><p>“Prakriti Ayurveda makes traditional wellness feel approachable while encouraging you to make informed choices.”</p><footer><span class="avatar avatar-clay">A</span><span><strong>Anika P.</strong><small>Wellness enthusiast</small></span></footer></blockquote>
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <p class="section-kicker">03 / SELECTED WORK</p>
+      <h2 id="projects-title">Project Details</h2>
+      <p class="section-intro">A few ways I’ve applied engineering and AI to practical challenges.</p>
+      <div class="project-grid">
+        <article class="project-card"><span class="project-number">01</span><div class="project-icon" aria-hidden="true">◉</div><h3>NeuroScanAI – Brain Tumor Detection</h3><p>An AI-assisted medical imaging project that analyzes brain MRI scans to help identify potential tumor patterns. The work explores image preprocessing, model evaluation, and clear presentation of results to support further clinical review.</p></article>
+        <article class="project-card"><span class="project-number">02</span><div class="project-icon" aria-hidden="true">✦</div><h3>NovaPure Herbal – AI Recommendation Chatbot</h3><p>A conversational recommendation experience for herbal products. The chatbot uses user preferences and a guided dialogue to surface relevant options, with an emphasis on a simple interface and helpful product discovery.</p></article>
+        <article class="project-card"><span class="project-number">03</span><div class="project-icon" aria-hidden="true">⌁</div><h3>Adaptive WAF – AI-Based Web Application Firewall</h3><p>A security-focused project exploring AI-assisted detection of suspicious web requests. It aims to classify potential threats, adapt to patterns in incoming traffic, and make application protection easier to monitor.</p></article>
       </div>
-      <form class="recommendation-form" id="recommendation-form">
+    </section>
+
+    <section class="section recommendations-section" id="recommendations" aria-labelledby="recommendations-title">
+      <p class="section-kicker">04 / KIND WORDS</p>
+      <div class="recommendation-heading"><div><h2 id="recommendations-title">Recommendations</h2><p class="section-intro">Notes from collaborators who have seen my curiosity and commitment firsthand.</p></div><span class="quote-mark" aria-hidden="true">“</span></div>
+      <div class="recommendation-list" id="recommendation-list" aria-live="polite">
+        <blockquote class="recommendation recommendation-card"><p>“Jane is a thoughtful problem-solver who brings genuine curiosity to every challenge. She asks the right questions, learns quickly, and turns feedback into practical improvements.”</p><footer><span class="avatar" aria-hidden="true">AM</span><span><strong>Alex Morgan</strong><small>Project collaborator</small></span></footer></blockquote>
+        <blockquote class="recommendation recommendation-card"><p>“Working with Jane on an AI project was a pleasure. She approaches technical details carefully and keeps the larger goal in view, making her a dependable and collaborative teammate.”</p><footer><span class="avatar avatar-blue" aria-hidden="true">RK</span><span><strong>Riya Kulkarni</strong><small>University teammate</small></span></footer></blockquote>
+        <blockquote class="recommendation recommendation-card"><p>“Jane has a strong drive to learn and a real interest in building useful technology. Her initiative, clear communication, and steady effort made a positive difference to our project.”</p><footer><span class="avatar avatar-violet" aria-hidden="true">SP</span><span><strong>Sam Patel</strong><small>Mentor</small></span></footer></blockquote>
+      </div>
+      <form class="recommendation-form" id="recommendation-form" novalidate>
         <div><p class="eyebrow">YOUR TURN</p><h3>Share a recommendation</h3><p class="form-hint">Your note will be added to the list above.</p></div>
         <label class="sr-only" for="recommendation-text">Your recommendation</label>
         <textarea id="recommendation-text" name="recommendation" rows="3" maxlength="400" placeholder="Write a few kind words…" required></textarea>
-        <button class="button button-dark" type="submit">Submit recommendation <span aria-hidden="true">→</span></button>
+        <button class="button button-primary" type="submit">Submit recommendation <span aria-hidden="true">→</span></button>
       </form>
+      <p class="submission-status" id="submission-status" role="status" aria-live="polite"></p>
     </section>
   </main>
 
-  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">✿</span><span>Prakriti <strong>Ayurveda</strong></span></a><span>Rooted in care. Inspired by nature.</span><a href="#home" class="back-top">Back to top ↑</a></footer>
-  <div class="popup" id="recommendation-popup" role="status" aria-live="polite" hidden><span class="popup-check" aria-hidden="true">✓</span><span>Thank you! Your recommendation has been added.</span><button type="button" class="popup-close" aria-label="Dismiss message">×</button></div>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">JD</span><span>Jane <strong>Doe</strong></span></a><span>Built with curiosity and care.</span><a class="back-top" href="#home">Back to top ↑</a></footer>
+  <div class="popup" id="recommendation-popup" role="status" aria-live="polite" hidden><span class="popup-check" aria-hidden="true">✓</span><span>Thank you! Your recommendation has been added.</span><button class="popup-close" type="button" aria-label="Dismiss confirmation">×</button></div>
 </body>
 </html>
